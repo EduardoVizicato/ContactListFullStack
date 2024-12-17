@@ -1,0 +1,15 @@
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ContactList.Domain.csproj.AssemblyReference.cache
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ContactList.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ContactList.Domain.AssemblyInfoInputs.cache
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ContactList.Domain.AssemblyInfo.cs
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ContactList.Domain.csproj.CoreCompileInputs.cache
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ContactList.Domain.sourcelink.json
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\bin\Debug\net8.0\ContactList.Domain.deps.json
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\bin\Debug\net8.0\ContactList.Domain.runtimeconfig.json
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\bin\Debug\net8.0\ContactList.Domain.dll
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\bin\Debug\net8.0\ContactList.Domain.pdb
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ContactList.Domain.dll
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\refint\ContactList.Domain.dll
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ContactList.Domain.pdb
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ContactList.Domain.genruntimeconfig.cache
+C:\ESTUDARPROGRAMACAO\ContactListFullStack\ContactListAPI\ContactList.Domain\obj\Debug\net8.0\ref\ContactList.Domain.dll

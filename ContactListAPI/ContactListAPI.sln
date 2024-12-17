@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactListAPI", "ContactListAPI\ContactListAPI.csproj", "{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactListAPI", "ContactListAPI\ContactListAPI.csproj", "{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList.Domain", "ContactList.Domain\ContactList.Domain.csproj", "{3EB7F6D6-8FC6-4BCD-82A8-CEAF93FACB0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactList.Infrastructure", "ContactList.Infrastructure\ContactList.Infrastructure.csproj", "{25F179F3-7E66-4545-8F41-25D8C65DD013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB7F6D6-8FC6-4BCD-82A8-CEAF93FACB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB7F6D6-8FC6-4BCD-82A8-CEAF93FACB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB7F6D6-8FC6-4BCD-82A8-CEAF93FACB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB7F6D6-8FC6-4BCD-82A8-CEAF93FACB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F179F3-7E66-4545-8F41-25D8C65DD013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F179F3-7E66-4545-8F41-25D8C65DD013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F179F3-7E66-4545-8F41-25D8C65DD013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F179F3-7E66-4545-8F41-25D8C65DD013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
