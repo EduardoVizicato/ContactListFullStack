@@ -40,7 +40,8 @@ namespace ContactList.Infrastructure.Repositiories
 
         public async Task<List<ContactModel>> GetAllAsync()
         {
-            return await _context.Contacts.Where(x => x.IsActive).ToListAsync();
+            return await _context.Contacts.ToListAsync();
+            //return await _context.Contacts.Where(x => x.IsActive).ToListAsync();
         }
 
         public async Task<ContactModel> GetByIdAsync(Guid id)
