@@ -15,4 +15,7 @@ export class ContactsService {
   getContacts(): Observable<Contact[]> {
     return this.httpClient.get<Contact[]>(`${this.url}/api/Contact`);
   }
+  addContact(contact: Contact): Observable<Contact> {
+    return this.httpClient.post<Contact>(`${this.url}/api/Contact`, contact);
+  }
 }
