@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {environment} from "../../environments/environment.development";
-import {Contact} from "../models/contact.model";
+import {ContactModel} from "../models/contact.model";
 import {Observable} from "rxjs";
 
 @Injectable({
@@ -12,10 +12,11 @@ export class ContactsService {
   constructor(private httpClient: HttpClient) {
   }
 
-  getContacts(): Observable<Contact[]> {
-    return this.httpClient.get<Contact[]>(`${this.url}/api/Contact`);
+  getContacts(): Observable<ContactModel[]> {
+    return this.httpClient.get<ContactModel[]>(`${this.url}/api/Contact`);
   }
-  addContact(contact: Contact): Observable<Contact> {
-    return this.httpClient.post<Contact>(`${this.url}/api/Contact`, contact);
+  addContact(contact: ContactModel): Observable<ContactModel> {
+    console.log("entered in service");
+    return this.httpClient.post<ContactModel>(`${this.url}/api/Contact`, contact);
   }
 }

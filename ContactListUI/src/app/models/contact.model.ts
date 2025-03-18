@@ -1,6 +1,6 @@
-export interface Contact {
+export interface ContactModel {
   id?: string;
-  name: string;
+  contactName: string;
   phoneNumber: string;
   isActive: boolean;
 }

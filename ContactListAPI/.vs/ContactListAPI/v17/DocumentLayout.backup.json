@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\ESTUDARPROGRAMACAO\\ContactListFullStack\\ContactListAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}|ContactListAPI\\ContactListAPI.csproj|c:\\estudarprogramacao\\contactlistfullstack\\contactlistapi\\contactlistapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}|ContactListAPI\\ContactListAPI.csproj|solutionrelative:contactlistapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}|ContactListAPI\\ContactListAPI.csproj|c:\\estudarprogramacao\\contactlistfullstack\\contactlistapi\\contactlistapi\\contactlistapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}|ContactListAPI\\ContactListAPI.csproj|solutionrelative:contactlistapi\\contactlistapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3EB7F6D6-8FC6-4BCD-82A8-CEAF93FACB0A}|ContactList.Domain\\ContactList.Domain.csproj|c:\\estudarprogramacao\\contactlistfullstack\\contactlistapi\\contactlist.domain\\models\\contactmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EB7F6D6-8FC6-4BCD-82A8-CEAF93FACB0A}|ContactList.Domain\\ContactList.Domain.csproj|solutionrelative:contactlist.domain\\models\\contactmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}|ContactListAPI\\ContactListAPI.csproj|c:\\estudarprogramacao\\contactlistfullstack\\contactlistapi\\contactlistapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BF498E8-FA29-43AA-9DAE-E66E5306F8A9}|ContactListAPI\\ContactListAPI.csproj|solutionrelative:contactlistapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25F179F3-7E66-4545-8F41-25D8C65DD013}|ContactList.Infrastructure\\ContactList.Infrastructure.csproj|c:\\estudarprogramacao\\contactlistfullstack\\contactlistapi\\contactlist.infrastructure\\repositiories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,7 +57,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ContactListAPI.http",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\ContactListFullStack\\ContactListAPI\\ContactListAPI\\ContactListAPI.http",
               "RelativeDocumentMoniker": "ContactListAPI\\ContactListAPI.http",
@@ -85,20 +85,20 @@
               "RelativeToolTip": "ContactListAPI\\ContactListAPI.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-26T13:58:21.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T13:58:21.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\ContactListFullStack\\ContactListAPI\\ContactListAPI\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "ContactListAPI\\Controllers\\ContactController.cs",
               "ToolTip": "C:\\ESTUDARPROGRAMACAO\\ContactListFullStack\\ContactListAPI\\ContactListAPI\\Controllers\\ContactController.cs",
               "RelativeToolTip": "ContactListAPI\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T13:26:11.577Z"
+              "WhenOpened": "2024-12-17T13:26:11.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -138,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\ContactListFullStack\\ContactListAPI\\ContactListAPI\\Program.cs",
               "RelativeDocumentMoniker": "ContactListAPI\\Program.cs",
@@ -174,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ContactModel.cs",
               "DocumentMoniker": "C:\\ESTUDARPROGRAMACAO\\ContactListFullStack\\ContactListAPI\\ContactList.Domain\\Models\\ContactModel.cs",
               "RelativeDocumentMoniker": "ContactList.Domain\\Models\\ContactModel.cs",

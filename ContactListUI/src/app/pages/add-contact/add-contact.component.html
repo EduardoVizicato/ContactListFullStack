@@ -7,14 +7,14 @@
     <p class="mt-2 text-lg/8 text-gray-600">Please make sure to add all informations</p>
   </div>
 
-  <form class="mx-auto mt-16 max-w-xl sm:mt-20">
+  <form (ngSubmit)="onFormSubmit()" [formGroup]="contactform"  class="mx-auto mt-16 max-w-xl sm:mt-20">
 
     <div class=" gap-x-8 gap-y-6">
 
       <div>
-        <label for="name" class="block text-sm/6 font-semibold text-gray-900">Name</label>
+        <label for="contactName" class="block text-sm/6 font-semibold text-gray-900">Name</label>
         <div class="mt-2.5">
-          <input type="text" name="name" id="name" autocomplete="name" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
+          <input type="text" formControlName="contactName" name="contactName" id="contactName" autocomplete="contactName" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600">
         </div>
       </div>
 
@@ -26,7 +26,7 @@
       </div> -->
 
       <div class="sm:col-span-2">
-        <label for="phone-number" class="block text-sm/6 font-semibold text-gray-900">Phone number</label>
+        <label for="phoneNumber" class="block text-sm/6 font-semibold text-gray-900">Phone number</label>
         <div class="mt-2.5">
           <div class="flex rounded-md bg-white outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600">
             <div class="grid shrink-0 grid-cols-1 focus-within:relative">
@@ -39,7 +39,7 @@
                 <path fill-rule="evenodd" d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
               </svg>
             </div>
-            <input type="text" name="phone-number" id="phone-number" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="00-00000-0000">
+            <input type="text" formControlName="phoneNumber" name="phoneNumber" id="phoneNumber" class="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6">
           </div>
         </div>
       </div>
